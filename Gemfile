@@ -4,7 +4,6 @@ ruby '2.1.1'
 
 gem 'rails_12factor'
 gem 'launchy'
-gem 'foreman'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
