@@ -9,6 +9,7 @@ gem 'rails', '4.1.1'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
+gem 'rails_layout', group: :development
 
 group :assets do
   # Use SCSS for stylesheets
