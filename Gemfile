@@ -10,6 +10,7 @@ gem 'rails', '4.1.1'
 gem 'pg'
 
 gem 'rails_layout', group: :development
+gem 'color_routes'
 
 group :assets do
   # Use SCSS for stylesheets
