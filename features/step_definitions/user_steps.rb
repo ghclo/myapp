@@ -154,7 +154,8 @@ Then /^I see a successful sign in message$/ do
 end
 
 Then /^I should see a successful sign up message$/ do
-  page.should have_contect "A message with a confirmation link has been sent to your email address."
+  page.should have_content "Welcome! You have signed up successfully."
+  # page.should have_contect "A message with a confirmation link has been sent to your email address."
 end
 
 Then /^I should see an invalid email message$/ do
@@ -166,11 +167,11 @@ Then /^I should see a missing password message$/ do
 end
 
 Then /^I should see a missing password confirmation message$/ do
-  page.should have_content "Password doesn't match confirmation"
+  page.should have_content "Password confirmation doesn't match Password"
 end
 
 Then /^I should see a mismatched password message$/ do
-  page.should have_content "Password doesn't match confirmation"
+  page.should have_content "Password confirmation doesn't match Password"
 end
 
 Then /^I should see a signed out message$/ do

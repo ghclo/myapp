@@ -21,7 +21,7 @@ module Myapp
     # config.i18n.default_locale = :de
 
     # Heroku requires this to be false
-    config.assets.initialize_on_precompile=false
+    # config.assets.initialize_on_precompile=false
 
     # don't generate RSpec tests for views and helpers
     config.generators do |g|
